@@ -33,7 +33,3 @@ git push -u origin main
 ```
 (Create the empty repo on github.com first.)
 
-## Deploy on Netlify
-1. Netlify > Add new site > Import from Git > pick the repo.
-2. Build command: `npm run build`. Publish directory: `dist` (already set in `netlify.toml`).
-3. Deploy. Every push redeploys.
